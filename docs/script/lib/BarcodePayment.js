@@ -46,7 +46,7 @@
 	const _delimiter = String.fromCharCode(0x0A);
 	const _header = "HRVHUB30";
 	const _currency = "HRK"
-	const _paymentModelPrefix = "HR";
+	const _paymentModelPrefix = "";
 
 	let _settings ={
 		ValidateIBAN: false, // TODO: Implement IBAN validation
