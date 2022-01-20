@@ -46,7 +46,7 @@
 	const _delimiter = String.fromCharCode(0x0A);
 	const _header = "HRVHUB30";
 	const _currency = "HRK"
-	const _paymentModelPrefix = "";
+	const _paymentModelPrefix = "HR";
 
 	let _settings ={
 		ValidateIBAN: false, // TODO: Implement IBAN validation
@@ -172,7 +172,7 @@
 				paymentParams.AdresaPrimatelja, _delimiter,
 				paymentParams.SjedistePrimatelja, _delimiter,
 				paymentParams.IBAN, _delimiter,
-				_paymentModelPrefix, paymentParams.ModelPlacanja, _delimiter,
+				paymentParams.ModelPlacanja, _delimiter,
 				paymentParams.PozivNaBroj, _delimiter,
 				paymentParams.SifraNamjene, _delimiter,
 				paymentParams.OpisPlacanja, _delimiter
