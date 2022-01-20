@@ -156,7 +156,7 @@ fieldset {
 .potvrda-field--model-i-poziv-na-broj {
     top: 152px;
     text-align: left;
-    
+    font-size: 0.7em;
 }
 .potvrda-field--opis-placanja {
     top: 183px;
