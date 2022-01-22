@@ -365,7 +365,9 @@ h2 {
     .fieldset-novi-nalog,
     .fieldset-save-dialog,
     .fieldset-load-dialog,
-    .fieldset-about, 
+    .fieldset-about {
+        display: none;
+    }
 
     .uplatnica .form-field,
     .uplatnica .form-field-invalid,
