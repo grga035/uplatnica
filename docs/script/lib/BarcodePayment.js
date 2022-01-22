@@ -413,7 +413,7 @@
 			ReceiverAddress: 25,
 			ReceiverHQ: 27,
 			IBAN: 21,
-			PaymentModel: 2,
+			PaymentModel: 4,
 			CalloutNumber: 22,
 			IntentCode: 4,
 			Description: 35
