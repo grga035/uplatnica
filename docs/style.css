@@ -366,9 +366,10 @@ h2 {
     .fieldset-save-dialog,
     .fieldset-load-dialog,
     .fieldset-about {
-        display: none;
+        display: none !important;
     }
-
+    
+    .uplatnica__disclaimer
     .uplatnica .form-field,
     .uplatnica .form-field-invalid,
     .uplatnica .form-field-invalid::placeholder {
