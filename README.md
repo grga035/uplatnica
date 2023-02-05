@@ -1,6 +1,7 @@
 Kod preuzet od knee-cola.
 
 Mala izmjena za model/poziv na broj
+
 Izmjena valute HRK>EUR
 
 ## Demo
